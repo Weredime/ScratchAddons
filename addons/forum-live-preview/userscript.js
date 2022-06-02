@@ -1,3 +1,5 @@
+import { html } from "./postmarkup.js";
+
 export default async function ({ addon, console }) {
   const textarea = await addon.tab.waitForElement(".markItUpEditor");
   const previewButton = await addon.tab.waitForElement(".markItUpButton.preview");
@@ -30,4 +32,5 @@ export default async function ({ addon, console }) {
   });
 
   if (addon.self.enabledLate) updatePreview();
+  window.bbc = html;
 }
