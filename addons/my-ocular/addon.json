@@ -43,6 +43,16 @@
       "if": {
         "settings": { "reactions": true }
       }
+    },
+    {
+      url: "status.css",
+      "matches": ["https://scratch.mit.edu/users/*/"],
+      "if: { "profile": true }
+    },
+    {
+      url: "status.css",
+      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "if: { "discuss": true }
     }
   ],
   "dynamicEnable": true,

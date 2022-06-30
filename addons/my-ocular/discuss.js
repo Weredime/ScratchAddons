@@ -13,6 +13,7 @@ export default async function ({ addon, global, console, msg }) {
       let br = document.createElement("br");
       addon.tab.displayNoneWhileDisabled(br);
       let status = document.createElement("i");
+      status.className = "sa-ocular-status";
       addon.tab.displayNoneWhileDisabled(status);
       status.title = msg("status-hover");
       status.innerText = userStatus;
@@ -34,7 +35,7 @@ export default async function ({ addon, global, console, msg }) {
     const response = await fetch(`https://my-ocular.jeffalo.net/api/user/${username}`);
     const data = await response.json();
     return {
-      userStatus: data.status?.replace(/\n/g, " "),
+      userStatus: data.status,
       color: data.color,
     };
   }
