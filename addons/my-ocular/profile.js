@@ -10,6 +10,7 @@ export default async function ({ addon, global, console, msg }) {
   var color = data.color;
   if (statusText) {
     var statusSpan = document.createElement("i"); // for whatever reason, chrome turns variable named status into text. why the heck. aaaaaaaaaaaaaaaaaa
+    statusSpan.className = "sa-ocular-status";
     statusSpan.title = msg("status-hover");
     statusSpan.innerText = statusText;
 
