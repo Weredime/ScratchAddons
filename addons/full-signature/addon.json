@@ -60,14 +60,14 @@
   "userstyles": [
     {
       "url": "signature.css",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*", "https://scratch.mit.edu/discuss/settings/*"],
+      "matches": ["topics", "https://scratch.mit.edu/discuss/settings/*"],
       "if": {
         "settings": { "signature": true }
       }
     },
     {
       "url": "blocks.css",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "blocks": true }
       }

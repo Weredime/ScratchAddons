@@ -33,7 +33,7 @@
     {
       "url": "forums.js",
       "matches": [
-        "https://scratch.mit.edu/discuss/topic/*",
+        "topics",
         "https://scratch.mit.edu/discuss/post/*",
         "https://scratch.mit.edu/discuss/settings/*"
       ],
@@ -43,7 +43,7 @@
     },
     {
       "url": "comments.js",
-      "matches": ["https://scratch.mit.edu/studios/*", "https://scratch.mit.edu/users/*", "projects"],
+      "matches": ["studios", "https://scratch.mit.edu/users/*", "projects"],
       "if": {
         "settings": { "comments": true }
       }

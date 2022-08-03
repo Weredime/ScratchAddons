@@ -37,21 +37,21 @@
   "userscripts": [
     {
       "url": "user.js",
-      "matches": ["https://scratch.mit.edu/users/*/"],
+      "matches": ["profiles"],
       "if": {
         "settings": { "user": true }
       }
     },
     {
       "url": "studio.js",
-      "matches": ["https://scratch.mit.edu/studios/*"],
+      "matches": ["studios"],
       "if": {
         "settings": { "studio": true }
       }
     },
     {
       "url": "forum.js",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "forumuser": true }
       },

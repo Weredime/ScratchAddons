@@ -12,7 +12,7 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["https://scratch.mit.edu/users/*/"]
+      "matches": ["profiles"]
     }
   ],
   "versionAdded": "1.4.0",

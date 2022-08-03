@@ -9,21 +9,21 @@
   "userscripts": [
     {
       "url": "discuss.js",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "discuss": true }
       }
     },
     {
       "url": "profile.js",
-      "matches": ["https://scratch.mit.edu/users/*/"],
+      "matches": ["profiles"],
       "if": {
         "settings": { "profile": true }
       }
     },
     {
       "url": "reactions.js",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "reactions": true }
       }
@@ -32,14 +32,14 @@
   "userstyles": [
     {
       "url": "discuss.css",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "discuss": true }
       }
     },
     {
       "url": "reactions.css",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*"],
+      "matches": ["topics"],
       "if": {
         "settings": { "reactions": true }
       }

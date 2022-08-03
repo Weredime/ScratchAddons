@@ -43,25 +43,25 @@
   "userscripts": [
     {
       "url": "classes.js",
-      "matches": ["https://scratch.mit.edu/studios/*"],
+      "matches": ["studios"],
       "runAtComplete": false
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["https://scratch.mit.edu/studios/*"]
+      "matches": ["studios"]
     },
     {
       "url": "default.css",
-      "matches": ["https://scratch.mit.edu/studios/*"],
+      "matches": ["studios"],
       "if": {
         "settings": { "version": "default" }
       }
     },
     {
       "url": "scratchr2.css",
-      "matches": ["https://scratch.mit.edu/studios/*"],
+      "matches": ["studios"],
       "if": {
         "settings": { "version": "scratchr2" }
       }

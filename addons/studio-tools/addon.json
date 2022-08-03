@@ -21,7 +21,7 @@
   "userscripts": [
     {
       "url": "migrated.js",
-      "matches": ["https://scratch.mit.edu/studios/*"]
+      "matches": ["studios"]
     },
     {
       "url": "mystuff.js",
@@ -34,7 +34,7 @@
   "userstyles": [
     {
       "url": "userstyle.css",
-      "matches": ["https://scratch.mit.edu/studios/*"]
+      "matches": ["studios"]
     }
   ],
   "tags": ["community", "studios", "recommended"],

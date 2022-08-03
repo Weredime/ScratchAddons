@@ -44,15 +44,13 @@
     },
     {
       "url": "forums_topic.css",
-      "matches": ["https://scratch.mit.edu/discuss/topic/*/"]
+      "matches": ["topics/"]
     },
     {
       "url": "forums_subpage.css",
       "matches": [
-        "https://scratch.mit.edu/discuss/*/topic/add/",
-        "https://scratch.mit.edu/discuss/post/*/edit/",
-        "https://scratch.mit.edu/discuss/misc/",
-        "https://scratch.mit.edu/discuss/settings/*/"
+        "editingScreens",
+        "https://scratch.mit.edu/discuss/misc/"
       ]
     },
     {
@@ -61,11 +59,11 @@
     },
     {
       "url": "profile.css",
-      "matches": ["https://scratch.mit.edu/users/*/", "https://scratch.mit.edu/classes/*/"]
+      "matches": ["profiles", "https://scratch.mit.edu/classes/*/"]
     },
     {
       "url": "scratchr2_comments.css",
-      "matches": ["https://scratch.mit.edu/users/*/"]
+      "matches": ["profiles"]
     },
     {
       "url": "remixtree.css",

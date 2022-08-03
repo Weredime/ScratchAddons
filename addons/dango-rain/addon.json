@@ -25,13 +25,13 @@
   "userscripts": [
     {
       "url": "userscript.js",
-      "matches": ["https://scratch.mit.edu/users/*/"]
+      "matches": ["profiles"]
     }
   ],
   "userstyles": [
     {
       "url": "style.css",
-      "matches": ["https://scratch.mit.edu/users/*/"]
+      "matches": ["profiles"]
     }
   ],
   "versionAdded": "1.12.0",

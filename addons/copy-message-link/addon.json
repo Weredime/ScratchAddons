@@ -10,23 +10,23 @@
   "userscripts": [
     {
       "url": "profile.js",
-      "matches": ["https://scratch.mit.edu/users/*/"],
+      "matches": ["profiles"],
       "runAtComplete": false
     },
     {
       "url": "project.js",
-      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/studios/*"],
+      "matches": ["projects, "studios"],
       "runAtComplete": false
     }
   ],
   "userstyles": [
     {
       "url": "profile.css",
-      "matches": ["https://scratch.mit.edu/users/*/"]
+      "matches": ["profiles"]
     },
     {
       "url": "project.css",
-      "matches": ["https://scratch.mit.edu/projects/*", "https://scratch.mit.edu/studios/*"]
+      "matches": ["projects, "studios"]
     }
   ],
   "dynamicEnable": true,
