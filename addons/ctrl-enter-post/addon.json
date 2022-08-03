@@ -32,11 +32,7 @@
   "userscripts": [
     {
       "url": "forums.js",
-      "matches": [
-        "topics",
-        "https://scratch.mit.edu/discuss/post/*",
-        "https://scratch.mit.edu/discuss/settings/*"
-      ],
+      "matches": ["topics", "https://scratch.mit.edu/discuss/post/*", "https://scratch.mit.edu/discuss/settings/*"],
       "if": {
         "settings": { "forums": true }
       }

@@ -48,10 +48,7 @@
     },
     {
       "url": "forums_subpage.css",
-      "matches": [
-        "editingScreens",
-        "https://scratch.mit.edu/discuss/misc/"
-      ]
+      "matches": ["editingScreens", "https://scratch.mit.edu/discuss/misc/"]
     },
     {
       "url": "forums_yt.css",
